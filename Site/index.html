@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <!--Autor: Jussara Andrade-->
+    <!--Criando no dia: 09/03/2019-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+	  <title>Site Tim</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="imagem/png" href="img/timbianco.png" />
+    
+
+       
+    <style>
+       
+        body{
+            margin-top: 90px;
+            padding: relative;
+           
+     
+        }
+      
+    
+    </style>
+
+   
+
+</head> 
+
+<body class="bg-dark fixed-nav sticky-footer">
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+                 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand"> <img src="img/tim-png-7.png" width="150px" height="50px" class="d-inline-block align-top"></a>
+                          
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                                </li>
+                              </ul>
+                          
+                          
+                          
+                            <form class="form-inline my-2 my-lg-0">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="pesquisar">
+                              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                            </form>
+                          </nav>
+         
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+            <div class="content-wrapper ">
+                    <div class="container-fluid ">
+                        
+            
+                        <div class="card mb-3">
+                           
+                            <div class="card-body" >
+                                <div id="dataTable_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+        
+                                    <div class="row ">
+                                        <div class="col-sm-12 col-md-6"><div class="dataTables_length" id="dataTable_length"></div></div><div class="col-sm-12 col-md-6"><div id="dataTable_filter" class="dataTables_filter"></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-bordered dataTable" id="dataTable" width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info" style="width: 100%;">
+                                    <thead>
+                                                <tr role="row">
+                                                    <th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Nome: activate to sort column descending" style="width: 152px;">Identificador&nbsp;fatura</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Cargo: activate to sort column ascending" style="width: 237px;">Data&nbsp;de&nbsp;emissão</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Local: activate to sort column ascending" style="width: 109px;">Data&nbsp;de&nbsp;Vencimento</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Idade: activate to sort column ascending" style="width: 65px;">Status</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Inicio: activate to sort column ascending" style="width: 92px;">Download</th>
+                                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Salário: activate to sort column ascending" style="width: 85px;">Duplicidade</th></tr>
+                                    </thead>  
+                                    
+                                    <tbody>
+                                        
+                                                                         
+                                    <tr role="row" class="odd">
+                                                <td class="sorting_1" >5555555</td>
+                                                <td>11/10/2018</td>
+                                                <td>18/10/2018</td>
+                                                <td><img src="img/bolinha-verde-png.png" width=27 height=25 data-toggle="tooltip" data-placement="top" title="Fatura disponível"></td>
+                                                <td><img src="img/pdf.png" href="#" width=27 height=25></td>
+                                                <td>Não</td>
+                                              </tr><tr role="row" class="even">
+                                                <td class="sorting_1">3333333</td>
+                                                <td>11/11/2018</td>
+                                                <td>18/11/2018</td>
+                                                <td><img src="img/bolinha-vermelha-png-2.png" width=27 height=25 data-toggle="tooltip" data-placement="top" title="Atrasada" ></td>
+                                                <td><img src="img/pdf.png" href="#" width=27 height=25></td>
+                                                <td>Não</td>
+                                              </tr><tr role="row" class="odd">
+                                                <td class="sorting_1">1111111</td>
+                                                <td>11/12/2018</td>
+                                                <td>18/12/2018</td>
+                                                <td><img src="img/yellow.png" width=27 height=25 data-toggle="tooltip" data-placement="top" title="Em abrto" ></td>
+                                                <td><img src="img/pdf.png" href="#" width=27 height=25></td>
+                                                <td>Não</td>
+                                              </tr><tr role="row" class="even">
+                                                <td class="sorting_1">4444444</td>
+                                                <td>11/01/2019</td>
+                                                <td>18/01/2019</td>
+                                                <td>
+                                                    <img src="img/blue.png" width=27 height=25 data-toggle="tooltip" data-placement="top" title="Saldo disponível"  id="btnToast" type="button"></td>
+                                                <td><img src="img/pdf.png"  width=27 height=25></td>
+                                                <td><span class="btn btn-outline-success" data-toggle="modal" data-target="#modalExemplo2">Solicitar</span></i></span></td>
+                                              </tr>
+                                              <tr role="row" class="even">
+                                                    <td class="sorting_1">8888888</td>
+                                                    <td>11/01/2019</td>
+                                                    <td>18/01/2019</td>
+                                                    <td><img src="img/regularizado.png" width=27 height=25 data-toggle="tooltip"  data-placement="top" title="Regularizado" ></td>
+                                                    <td><img src="img/pdf.png"  width=27 height=25></td>
+                                                    <td>Não</td>
+                                                  </tr>
+                                            </tbody>
+                                    
+                                </table></div></div></div></div></div>
+                            
+                                <div class="pposition-sticky">
+                                <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 80px;">
+                                  <div class="toast" style="position: absolute; top: 0; right: 0;" data-delay="3000">
+                                    <div class="toast-header">
+                                      <strong class="mr-auto">Saldo</strong>
+                                      <small>11 minuto depois</small>
+                                      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="toast-body">
+                                      <h3  style="color:darkgreen">Disponível: R$ 90,00   </h3></h3>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                         </div>
+
+      
+                       
+                               
+                            
+                        
+                         <div class="col-12">                               
+                                 <div id="modalExemplo2" class="modal fade">
+                                     <div class="modal-dialog modal-lg" role="document">
+                                         <div class="modal-content">
+                                             <div class="modal-header">
+                                                 <h5 class="modal-title">Crédito</h5>
+                                             <button type="button" class="close " data-dismiss="modal" aria-label="Fechar">
+                                                 <span arial-hidden="true">&times;</span>
+                                             </button>
+                                             </div>
+                                         
+                                             <div class="modal-body">
+                                                 <div class="row">
+                                                        <div class="col-12">
+                                                                <form>
+                                                                    <div class="form-row">
+                                                                        <div class="form-group col-md-6">
+                                                                            <label for="nome" class="col-form-label">Nome:</label>
+                                                                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                                                                        </div>
+                                                                        <div class="form-group col-md-6">
+                                                                                <label for="sobrenome" class="col-form-label">Sobrenome:</label>
+                                                                                <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome ">
+                                                                            </div>
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                   <div class="form-row ">
+                                                                            <div class="form-group col-md-4">
+                                                                                <label for="cidade" class="col-form-label">CPF:</label>
+                                                                                <input type="text" class="form-control" id="cidade" placeholder="Digite seu CPF">
+                                                                            </div>
+                                                                            <div class="form-group col-md-4">
+                                                                                    <label for="estado" class="col-form-label">Agência:</label>
+                                                                                    <input type="text" class="form-control" id="estado" placeholder="Digite sua Agência ">
+                                                                                </div>
+                                                                                <div class="form-group col-md-4">
+                                                                                        <label for="cep" class="col-form-label">Conta:</label>
+                                                                                        <input type="text" class="form-control" id="cep" placeholder="Digite sua Conta ">
+                                                                                    </div>
+
+                                                                                    
+                                                                        </div>
+                                                                        <hr>
+                                                                        <h4>Tipo de conta</h4>
+                                                                        <hr>
+                                                                        <div class="row col-md-4 pt-3">
+                                                                        <div class="form-check form-check-inline ">
+                                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                                <label class="form-check-label" for="inlineRadio1">Conta Corrente</label>
+                                                                              </div>
+                                                                              <div class="form-check form-check-inline ">
+                                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                <label class="form-check-label" for="inlineRadio2">Poupança</label>
+                                                                              </div>
+                                                                            </div>
+                                                                              <hr>
+                                                                              
+                                                                                <h4>Selecione o banco</h4>
+                                                                              <hr>
+
+                                                                              <div class="form-row  pt-3">
+                                                                                   
+                                                                                
+                                                                                    <div class="form-check form-check-inline  ">
+                                                                                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                          <label class="form-check-label" for="inlineRadio2"> Itaú</label>
+                                                                                        </div>
+                                                                                        <div class="form-check form-check-inline ">
+                                                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                                <label class="form-check-label" for="inlineRadio2">Caixa</label>
+                                                                                              </div>
+                                                                                              <div class="form-check form-check-inline ">
+                                                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                                                    <label class="form-check-label" for="inlineRadio2">Bradesco</label>
+                                                                                                  </div>
+                                                                              </div>
+
+                                                                              
+
+                                                                </form>
+
+                                                                <hr>
+                                                                <h4>Pagamento</h4>
+                                                              <hr>
+                                                                <label>Deseja que o valor seja debitado nas próximas faturas?</label>
+                                                              <div class="form-check form-check-inline ">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                    <label class="form-check-label" for="inlineRadio2"> Sim</label>
+                                                                  </div>
+                                                                  <div class="form-check form-check-inline ">
+                                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                    <label class="form-check-label" for="inlineRadio2">Não</label>
+                                                                  </div>
+                                                            </div>
+                                                            
+                                                 </div>
+                                             </div>
+
+                                             
+
+                                           
+
+
+
+                                             <div class="modal-footer">
+                                                 <button type="button" class="btn btn-success">Confirmar</button>
+                                                 <button type="button" class="btn btn-light" data-dismiss="modal">Fechar </button>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                              </div>
+                         </div>
+
+            
+                    </div>
+                   
+            
+                </div>
+                </div>
+
+
+
+</div>
+
+
+
+
+
+</body>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#btnToast').click(function(){
+            $('.toast').toast('show');
+        });
+    });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+  </body>
+</html> 
