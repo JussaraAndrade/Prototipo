@@ -8,5 +8,5 @@ o problema do cliente sem precisar entrar em contato na central de atendimento S
 
 <p>Esse protótipo usa framework do bootstrap última versão 4.3 atualizada, também usa efeitos como Jquery</p>
 
-<p>Senac 6° semestre</p>
+<p>Senac 6° semestre - Automoção de Serviços e Processos - Sistema de Informação</p>
 
